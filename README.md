@@ -3,11 +3,11 @@
 #Reproducing "HTTP over UDP: an Experimental Investigation of QUIC"
 
 **Introducion**   
-<img src="httpOverview.jpg" alt="drawing" width="400"/>
+<img src="httpOverview.jpg" style="text-align:center" alt="drawing" width="400"/>
 Across the years, the HTTP protocol has gone through a few iterations, with each new iteration hoping to improve
 on the previous one. Both the HTTP protocol and SPDY protocol use TCP in the transport layer to send and receive packets. In 2012, Google introduced the QUIC protocol as an alternative to HTTP and SPDY.   
 
-<img src="quicImage.jpg" alt="drawing" width="400"/>  
+<img src="quicImage.jpg" style="text-align:center" alt="drawing" width="400"/>  
 Interestingly, QUIC not only differs from HTTP by using multiplexing to support more packets sending, it differs from SPDY by using the UDP protocol. To overcome UDPs inability to guarantee packet delivery, the QUIC protocol implements retransmission and congestion control on the application layer.   
 
 The goal of our project was to reproduce the research produced in the aforementioned paper while also contributing new data by taking measurements with different parameters while also introducing new implementations to the project methodology.
@@ -20,7 +20,7 @@ To measure the performance of these protocols across different situation we used
 
 
 **Discussion**   
-<p float="center">
+<p float="center" style="text-align:center">
   <img src="200kbps.jpg" width="300" />
   <img src="10mbps1.5loss.png" width="300" /> 
 </p> 
