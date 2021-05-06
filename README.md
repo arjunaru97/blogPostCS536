@@ -15,8 +15,8 @@ Some key differences include
 sdsf
 g
 <p float="center">
-  <img src="200kbps.jpg" width="425" />
-  <img src="10mbps1.5loss.png" width="425" /> 
+  <img src="200kbps.jpg" width="300" />
+  <img src="10mbps1.5loss.png" width="300" /> 
 </p>
 
 > Link to GitHub repo: ...
