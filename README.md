@@ -2,7 +2,7 @@
 
 #Reproducing "HTTP over UDP: an Experimental Investigation of QUIC"
 
-**Introducion**   
+**Introduction**   
 <img src="images/httpOverview.jpg" alt="drawing" width="400"/>   
 Across the years, the HTTP protocol has gone through a few iterations, with each new iteration hoping to improve
 on the previous one. Both the HTTP protocol and SPDY protocol use TCP in the transport layer to send and receive packets. In 2012, Google introduced the QUIC protocol as an alternative to HTTP and SPDY.   
