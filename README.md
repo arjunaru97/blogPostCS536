@@ -1,6 +1,6 @@
 <img src="images/purdue-cs-logo.jpg" alt="drawing" width="450"/>
 
-# An Analysis of QUIC: Reproducing "HTTP over UDP: anExperimental Investigation of QUIC
+# An Analysis of QUIC: Reproducing "HTTP over UDP: An Experimental Investigation of QUIC
 
 **Introduction**   
 <img src="images/httpOverview.jpg" alt="drawing" width="400"/>   
